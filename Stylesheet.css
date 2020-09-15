@@ -1,12 +1,12 @@
 h1 {
     font-family: fantasy;
     font-weight: bold;
-    transform: rotate(30deg);
+    transform: rotate(-30deg);
     text-align: center;
-    background-color: azure;
+    background-color: pink;
     color: yellow;
 }
 
 body{
-    color: violet;
+    Background-color: violet;
 }
