@@ -1,0 +1,12 @@
+h1 {
+    font-family: fantasy;
+    font-weight: bold;
+    transform: rotate(30deg);
+    text-align: center;
+    background-color: azure;
+    color: yellow;
+}
+
+body{
+    color: violet;
+}
