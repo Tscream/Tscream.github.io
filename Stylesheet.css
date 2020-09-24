@@ -14,7 +14,7 @@ p {
 }
 
 body{
-    background: blue, blueviolet;
+    background: linear-gradient(135%, Blue, Blueviolet);
     margin: 0 30px 300px 30px;
 }
 
