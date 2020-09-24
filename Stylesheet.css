@@ -3,7 +3,7 @@ h1 {
     font-weight: normal;
     transform: rotate(0deg);
     text-align: left;
-    margin: 500px 0 0 0;
+    margin: 5px;
     background-color: black;
     color: green;
 }
@@ -15,10 +15,11 @@ p {
 
 body{
     background: 135%, blue, blueviolet;
-    margin: 0 0 300px 30px;
+    margin: 0 30px 300px 30px;
 }
 
 a {
+    color: yellow;
     font-size: 40px;
 }
 
