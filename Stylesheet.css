@@ -14,7 +14,7 @@ p {
 }
 
 body{
-    background: linear-gradient(rgb(0, 0, 255), rgb(255, 0, 255));
+    background: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 0));
     margin: 0 30px 300px 30px;
 }
 
