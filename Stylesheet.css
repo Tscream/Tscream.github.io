@@ -2,10 +2,9 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     transform: rotate(0deg);
-    text-align: left;
+    text-align: center;
     margin: 5px;
     background-color: black;
-    color: green;
 }
 
 p {
@@ -13,7 +12,7 @@ p {
     
 }
 
-body{
+body {
     background: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 0));
     margin: 0 30px 300px 30px;
 }
@@ -21,5 +20,9 @@ body{
 a {
     color: yellow;
     font-size: 40px;
+}
+
+.blue {
+    color: blue;
 }
 
