@@ -1,18 +1,79 @@
+#bg {
+  background: url("Hackerman.jpg") bottom left;
+  background-repeat: repeat-x;
+  background-position: center;
+  position: fixed; 
+  width: 19200px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  animation-name: anim;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#page {
+  background-color: blue;
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 100px;
-    transform: rotate(0deg);
-    text-align: center;
-    margin: 5px;
-    background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 100px;
+  transform: rotate(0deg);
+  text-align: center;
+  margin: auto;
+  color: white;
 }
 
 p {
-    color: green;
-    
+  color: black;
+  margin: auto;
+  font-size: 50px;
 }
 
+
+
+
+
+
+/* @keyframes moveIt {​​
+    0% {​​
+      background-position: bottom left;
+    }​​
+    100% {
+      ​​background-position: top right;
+    }​​
+}​​ */
+
+/* @keyframes anim {
+  from {
+    background-position-x: left;
+  }
+  to {
+    background-position-x: right;
+  }
+} */
+
+
+
+
+
+
+/* h1:hover{
+  
+} */
+
+
+/*
 body {
     background: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 0));
     margin: 0 30px 300px 30px;
@@ -26,4 +87,45 @@ a {
 .blue {
     color: rgb(223, 26, 157);
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    margin: 0 5px 0 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #333;
+    position: relative; 
+    top: 0;
+}
+      
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    margin-top: 100px; 
+} 
+
+*/
 
