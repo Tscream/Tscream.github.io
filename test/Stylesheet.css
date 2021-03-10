@@ -1,0 +1,52 @@
+
+body {
+    background-color: #07252d;
+  }
+
+.typewriter {
+  border-right: .15em solid rgb(115, 115, 115);
+  color: rgb(115, 115, 115);
+  font-family: "Courier";
+  font-size: 6em;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: yellow;
+
+  opacity: 1;
+  /* animation: type 5s steps(4, end), blink .5s step-end infinite alternate; */
+  /* animation-fill-mode: forwards; */
+  animation-name: typing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(4, end);
+
+
+  /* animation-name: ablink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end; */
+
+
+  
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  10% {
+    width: 100%;
+  }
+  90% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes ablink {
+  50% {
+    border-color: transparent;
+  }
+}
